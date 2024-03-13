@@ -1,3 +1,4 @@
+
 body{
     margin:0;
     padding: 0;
@@ -12,14 +13,22 @@ body{
 
 /* navbar starts */
 
-.header {
-    /* position: sticky; */
+.navbar {
+    position: sticky;
     top: 0;
-    z-index: 1000; /* Ensure the header is above other content */
-    background-color: #fff; /* Background color */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: adds shadow for depth */
+    z-index: 1000; 
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
   }
+.bx-menu{
+    font-size: 4.2vh;
+    padding: 1px;
+}
 
+.navbar-toggler{
+    color: #7072a7;
+    background-color: #38cb89;
+}
 
 nav a{
     color: #ababab;
@@ -73,6 +82,7 @@ nav a{
     background-color: #ffffff;
     font-size: 20px;
     font-weight: 500;
+    margin-right: 40px;
 
 }
 .nav-btn:hover{
@@ -109,6 +119,8 @@ nav a{
     color: #5945e6;
     font-size: 25px;
 }
+
+
 
 
 
@@ -200,7 +212,7 @@ nav a{
 
 .card1 .img{
     padding: 15px;
-    margin-left: 20px;
+    
 }
 
 .cross-head{
@@ -289,7 +301,7 @@ nav a{
  }
  .card3 .img{
      padding: 20px;
-     margin-left: 20px;
+    
  }
  
  .completely-head{
@@ -1672,3 +1684,6 @@ nav a{
   
 
 }
+
+
+
