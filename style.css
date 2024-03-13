@@ -1272,7 +1272,7 @@ nav a{
 .faqs{
     text-align: center;
     padding: 4px;
-    margin-top: 11rem;
+    margin-top: 190px;
 }
 
 
@@ -1477,7 +1477,7 @@ nav a{
 
 .bef-foot{
     background-color: #7569eb;
-    height: 450px;
+    height: 580px;
     width: 98%;
     text-align: center;
     padding: 8px;
@@ -1486,7 +1486,7 @@ nav a{
 
 .bef-head{
     color: #ffffff;
-    font-size: 38px;
+    font-size: 6.5vh;
     font-family: sans-serif;
     text-align: center;
     margin-top: 190px;
