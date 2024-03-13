@@ -154,8 +154,14 @@ nav a{
     height: 60px;
     border-radius: 8px 8px;
     padding: 5px;
+    border: 2px solid #3ccc8b;
 }
 
+.grid-btn:hover{
+    background-color: #ffffff;
+    color: #3ccc8b;
+
+}
 
 /* 1line heading starts  */
 
@@ -1547,6 +1553,9 @@ nav a{
 
 }
 
+
+
+
 .whats-next2{
     color: #ffffff;
     text-align: center;
@@ -1642,6 +1651,7 @@ nav a{
    */
 
 
+
 /* Adjust the navbar and logo image for smaller screens */
 
 
@@ -1664,7 +1674,7 @@ nav a{
 
   }
 
-
+  
   @media only screen and (max-width: 600px) {
     .grid-container {
     
@@ -1685,5 +1695,10 @@ nav a{
     }
   }
 
+  
+  
+
 }
+
+
 
