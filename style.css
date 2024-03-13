@@ -1547,9 +1547,6 @@ nav a{
 
 }
 
-
-
-
 .whats-next2{
     color: #ffffff;
     text-align: center;
@@ -1645,7 +1642,6 @@ nav a{
    */
 
 
-
 /* Adjust the navbar and logo image for smaller screens */
 
 
@@ -1668,7 +1664,7 @@ nav a{
 
   }
 
-  
+
   @media only screen and (max-width: 600px) {
     .grid-container {
     
@@ -1689,10 +1685,5 @@ nav a{
     }
   }
 
-  
-  
-
 }
-
-
 
