@@ -20,6 +20,12 @@ body{
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
   }
+ 
+.nav-image{
+    justify-content: center;
+    margin-bottom: 30px;
+}
+  
 .bx-menu{
     font-size: 4.2vh;
     padding: 1px;
@@ -70,7 +76,6 @@ nav a{
 }
 
 
-
 .nav-btn{
     height: 60px;
     width: 135px;
@@ -119,6 +124,7 @@ nav a{
     color: #5945e6;
     font-size: 25px;
 }
+
 
 
 
