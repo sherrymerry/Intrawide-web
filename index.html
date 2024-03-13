@@ -16,6 +16,7 @@
        
        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
        
+
       
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
@@ -26,30 +27,64 @@
 <body>
 
 
-<header class="header text-gray-600 body-font mt-2">
-  <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-     
-      <img src="images/intra-wide.png" alt="">
-    </a>
-    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-      <a href="#landing" class="landing mr-6 hover:text-black-900">LANDING</a>
-      <a href="#about" class="about mr-6 hover:text-black-900">ABOUT</a>
-      <a href="#services" class="services mr-6 hover:text-black-900">SERVICES</a>
-      <a href="#pricing" class="pricing mr-6 hover:text-black-900">PRICING</a>
-      <a href="#faqus" class="faqus mr-6 hover:text-black-900">FAQ</a>
-      <a href="#contact" class="contact mr-6 hover:text-black-900">CONTACT</a>
 
-    </nav>
 
-    <a href="#"><i class='bx bxs-cart'><span class="cart-num">0</i></a></span>
-    <a href="#"><i class='bx bx-search'></i></a>
-    <button class="nav-btn inline-flex items-center  py-1 px-3 focus:outline-none  rounded text-base mt-4 md:mt-0 wow animate_animated animate_bounce"  data-wow-duration="1.5s" data-wow-delay="0.5s">Hire Us Now
-    
-    </button>
-  </div>
-</header>
 
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="index.php">
+            <i class="navbar-brand-icon bi-book me-2"></i>
+            <img src="images/intra-wide.png" alt="">
+        </a>
+
+        <!-- Navbar toggler button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class='bx bx-menu'></i></span>
+        </button>
+
+        <!-- Collapsible navbar content -->
+        <div class="collapse navbar-collapse show" id="navbarNav">
+            <ul class="navbar-nav ms-lg-auto me-lg-4">
+                <li class="nav-item">
+                    <a class="landing mr-6 hover:text-black-900" href="#landing">LANDING</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="about mr-6 hover:text-black-900" href="#about">ABOUT</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="services mr-6 hover:text-black-900" href="#services">SERVICES</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="pricing mr-6 hover:text-black-900" href="#pricing">PRICING</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="faqus mr-6 hover:text-black-900" href="#faqus">FAQ</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="contact mr-6 hover:text-black-900" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+
+            <!-- Cart icon -->
+            <a href="#"><i class='bx bxs-cart'><span class="cart-num">0</span></i></a>
+            
+            <!-- Search icon -->
+            <a href="#"><i class='bx bx-search'></i></a>
+            
+            <!-- "Hire Us Now" button -->
+            <button class="nav-btn inline-flex items-center py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 wow animate__animated animate__bounce" data-wow-duration="1.5s" data-wow-delay="0.5s">Hire Us Now</button>
+        </div>
+    </div>
+</nav>
+
+
+
+ 
 
 
   <!-- carousel start  -->
@@ -62,11 +97,11 @@
 
        <div class="row">
   <div class="grid-container mt-8 col-md-4 offset-1">
-    <h1 class="grid-head wow animate_animated animate_fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Better Software Promote Sales and profits</h1>
-    <p class="grid-para mt-3 wow animate_animated animate_fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Intrawide doesnt requires users to be experts.</p>
-    <button class="grid-btn mt-5 wow animate_animated animate_fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Get Intrawide 4.1</button>
+    <h1 class="grid-head wow animate__animated animate__fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Better Software Promote Sales and profits</h1>
+    <p class="grid-para mt-3 wow animate__animated animate__fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Intrawide doesnt requires users to be experts.</p>
+    <button class="grid-btn mt-5 wow animate__animated animate__fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Get Intrawide 4.1</button>
   </div>
-  <div class="grid-image col-md-6 wow animate_animated animate_fadeInRight"  data-wow-duration="0.5s" data-wow-delay="0.5s">
+  <div class="grid-image col-md-6 wow animate__animated animate__fadeInRight"  data-wow-duration="0.5s" data-wow-delay="0.5s">
     <img src="images\aerloand carousel 1.png" class="d-block " alt="...">
   </div>
 </div>
@@ -76,11 +111,11 @@
 
       <div class="row">
   <div class="grid-container mt-8 col-md-4 offset-1">
-    <h1 class="grid-head wow animate_animated animate_fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Your Business Deserves Better Software.</h1>
-    <p class="grid-para mt-3 wow animate_animated animate_fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">No Coding Skills Required to Create Unique Sites.</p>
-    <button class="grid-btn mt-5 wow animate_animated animate_fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Get Intrawide  4.1</button>
+    <h1 class="grid-head wow animate__animated animate__fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Your Business Deserves Better Software.</h1>
+    <p class="grid-para mt-3 wow animate__animated animate__fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">No Coding Skills Required to Create Unique Sites.</p>
+    <button class="grid-btn mt-5 wow animate__animated animate__fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Get Intrawide  4.1</button>
   </div>
-  <div class="grid-image col-md-6 wow animate_animated animate_fadeInRight"  data-wow-duration="0.5s" data-wow-delay="0.5s">
+  <div class="grid-image col-md-6 wow animate__animated animate__fadeInRight"  data-wow-duration="0.5s" data-wow-delay="0.5s">
     <img src="images/aerloandcarousel2.png" class="d-block "  alt="...">
   </div>
 </div>
@@ -90,11 +125,11 @@
 
      <div class="row">
   <div class="grid-container mt-8 col-md-4 offset-1">
-    <h1 class="grid-head wow animate_animated animate_fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Your Business Deserves Better Software.</h1>
-    <p class="grid-para mt-3 wow animate_animated animate_fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">No Coding Skills Required to Create Unique Sites.</p>
-    <button class="grid-btn mt-5 wow animate_animated animate_fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Get Intrawide  4.1</button>
+    <h1 class="grid-head wow animate__animated animate__fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Your Business Deserves Better Software.</h1>
+    <p class="grid-para mt-3 wow animate__animated animate__fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">No Coding Skills Required to Create Unique Sites.</p>
+    <button class="grid-btn mt-5 wow animate__animated animate__fadeInLeft"  data-wow-duration="0.5s" data-wow-delay="2s">Get Intrawide  4.1</button>
   </div>
-  <div class="grid-image col-md-6  w-99 wow animate_animated animate_fadeInRight"  data-wow-duration="0.5s" data-wow-delay="0.5s">
+  <div class="grid-image col-md-6  w-99 wow animate__animated animate__fadeInRight"  data-wow-duration="0.5s" data-wow-delay="0.5s">
     <img src="images/aerolandcarousel3.png" class="d-block "  alt="...">
   </div>
 </div>
@@ -125,26 +160,26 @@
   <div class="soft-cards container mt-9">
 <div class="row">
 
-  <div class="image col-md-6 wow animate_animated animate_fadeInLeft"  data-wow-duration="2s" data-wow-delay="0.5s">
+  <div class="image col-md-6 wow animate__animated animate__fadeInLeft"  data-wow-duration="2s" data-wow-delay="0.5s">
     <img src="images/card main.png" alt="">
   </div>
 
   <div class="cards col-md-6">
 
 
-    <div class="card1 mb-3 wow animate_animated animate_fadeInRight"  data-wow-duration="2s" data-wow-delay="0.5s">
+    <div class="card1 mb-3 wow animate__animated animate__fadeInRight"  data-wow-duration="2s" data-wow-delay="0.5s">
       <img class="img" src="images/card 1.png" alt="">
       <h1 class="cross-head">Cross-browser Compatible Design</h1>
       <p class="cross-para">Apps are built based on highly compatible <br> design for all kinds of Internet browsers.</p>
     </div>
 
-    <div class="card2  mt-2 wow animate_animated animate_fadeInRight"  data-wow-duration="2s" data-wow-delay="0.5s">
+    <div class="card2  mt-2 wow animate__animated animate__fadeInRight"  data-wow-duration="2s" data-wow-delay="0.5s">
       <img class="img" src="images/card2.png" alt="">
       <h1 class="highly-head">Highly Responsive Tools</h1>
       <p class="highly-para">Themes are integrated with highly responsive <br> tools for supporting site building work.</p>
     </div>
 
-    <div class="card3 mt-3 wow animate_animated animate_fadeInRight"  data-wow-duration="2s" data-wow-delay="0.5s">
+    <div class="card3 mt-3 wow animate__animated animate__fadeInRight"  data-wow-duration="2s" data-wow-delay="0.5s">
       <img class="img" src="images/card3.png" alt="">
       <h1 class="completely-head">Completely Gutenberg Ready</h1>
       <p class="completely-para">Intrawide is compatible with Gutenberg and still <br> has  Classic Editor for content editing.</p>
@@ -172,27 +207,27 @@
     <div class="row">
 
       <div class="text">
-        <h1 class="text-head wow animate_animated animate_headShake"  data-wow-duration="2s" data-wow-delay="0.5s">Developed for Higher Business Growth</h1>
-        <p class="text-para mt-3 animate_animated animate_flip"  data-wow-duration="2s" data-wow-delay="0.5s">Offer your business with the best assistance for growth.</p>
+        <h1 class="text-head wow animate__animated animate__headShake"  data-wow-duration="2s" data-wow-delay="0.5s">Developed for Higher Business Growth</h1>
+        <p class="text-para mt-3 animate__animated animate__flip"  data-wow-duration="2s" data-wow-delay="0.5s">Offer your business with the best assistance for growth.</p>
       </div>
 
 
       <div class="heros mt-8 col-md-4">
 
       
-       <div class="hero1 wow animate_animated animate_fadeInLeft"  data-wow-duration="2s" data-wow-delay="0.5s">
+       <div class="hero1 wow animate__animated animate__fadeInLeft"  data-wow-duration="2s" data-wow-delay="0.5s">
        <button id="hero1-id"><i class="fa-solid fa-bars"></i></button>
         <h1 class="page-head mt-2">Page Change <br> Effects</h1>
         <p class="page-para mt-1">The transition between pages is made to provide convenience for users while navigating.</p>
         </div>
 
-        <div class="hero2 mt-3 wow animate_animated animate_fadeInLeft"  data-wow-duration="2s" data-wow-delay="0.5s">
+        <div class="hero2 mt-3 wow animate__animated animate__fadeInLeft"  data-wow-duration="2s" data-wow-delay="0.5s">
         <button id="hero2-id"><i class="fa-solid fa-rocket"></i></button>
           <h1 class="newmarket-head mt-2">New Marketing Plan</h1>
           <p class="newmarket-para mt-1">We are capable of sketching out competitive market,s plans that efficiently proven.</p>
           </div>
 
-          <div class="hero3 mt-3 wow animate_animated animate_fadeInLeft"  data-wow-duration="2s" data-wow-delay="0.5s">
+          <div class="hero3 mt-3 wow animate__animated animate__fadeInLeft"  data-wow-duration="2s" data-wow-delay="0.5s">
           <button id="hero3-id"><i class="fa-solid fa-chart-pie"></i></button>
             <h1 class="seo-head mt-2">SEO Analytic Tools</h1>
             <p class="seo-para mt-1">Promote your sales and increase the ROI with the help from built-in SEO analytic tools.</p>
@@ -202,7 +237,7 @@
 
       </div>
 
-      <div class="image mt-10 col-md-8 wow animate_animated animate_fadeInRight"  data-wow-duration="2s" data-wow-delay="0.5s">
+      <div class="image mt-10 col-md-8 wow animate__animated animate__fadeInRight"  data-wow-duration="2s" data-wow-delay="0.5s">
         <img id="img1" src="images/hero1.jpg" alt="">
         
       </div>
@@ -218,16 +253,16 @@
   <div class="container">
     <div class="row">
 
-      <div class="per-image col-md-6 mt-7 wow animate_animated animate_fadeInLeft"  data-wow-duration="2s" data-wow-delay="0.5s">
+      <div class="per-image col-md-6 mt-7 wow animate__animated animate__fadeInLeft"  data-wow-duration="2s" data-wow-delay="0.5s">
       <img src="images/percent.png" alt="">
       </div>
 
       <div class="per-percent mt-7 col-md-6 ">
-        <h1 class="per-head mb-4 wow animate_animated animate_fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s" >All-in-one responsive <br> app for you</h1>
-        <h4 class="ui mt-2 wow animate_animated animate_fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s" ><u class="ux">UI/UX </u><span>81%</span></h4>
-        <h4 class="branding mt-5 wow animate_animated animate_fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s" ><u class="brand"> Branding</u><span>72%</span></h4>
-        <h4 class="marketing mt-5 wow animate_animated animate_fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s" ><u class="market"> Marketing</u><span>89%</span></h4>
-        <h4 class="support mt-5 wow animate_animated animate_fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s" > <u class="spt"> Support</u><span>57%</span> </h4>
+        <h1 class="per-head mb-4 wow animate__animated animate__fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s" >All-in-one responsive <br> app for you</h1>
+        <h4 class="ui mt-2 wow animate__animated animate__fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s" ><u class="ux">UI/UX </u><span>81%</span></h4>
+        <h4 class="branding mt-5 wow animate__animated animate__fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s" ><u class="brand"> Branding</u><span>72%</span></h4>
+        <h4 class="marketing mt-5 wow animate__animated animate__fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s" ><u class="market"> Marketing</u><span>89%</span></h4>
+        <h4 class="support mt-5 wow animate__animated animate__fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s" > <u class="spt"> Support</u><span>57%</span> </h4>
 
       </div>
 
@@ -382,11 +417,11 @@ Quality & Customer Experience</p>
   <div class="container">
     <div class="row">
 
-      <div class="app mt-6 col-md-6 wow animate_animated animate_fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s">
+      <div class="app mt-6 col-md-6 wow animate__animated animate__fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s">
         <h1 class="app-head mt-5">Free download of our app</h1>
         <h2 class="app-head2 mt-4">Offer your business with the best <br> assistance for growth.
   </h2>
-  <a href="#"><button class="try-app mt-9  wow animate_animated animate_fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s"><i class='bx bxs-download'></i>Try 14 days free</button></a>
+  <a href="#"><button class="try-app mt-9  wow animate__animated animate__fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s"><i class='bx bxs-download'></i>Try 14 days free</button></a>
       </div>
       
       <div class="down-image mt-9 col-md-6">
@@ -401,7 +436,7 @@ Quality & Customer Experience</p>
 <section id="faqus">
 
 
-<div class="faqs  wow animate_animated animate_fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s">
+<div class="faqs  wow animate__animated animate__fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s">
   <h1 class="faq-head">Frequently Asked Questions
   </h1>
   <p class="faq-para mt-3 mb-5">
@@ -521,7 +556,7 @@ Quality & Customer Experience</p>
 
 
 
-<h1 class="further-QA mt-8  wow animate_animated animate_fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s">Still have further questions?<a href="#"><button class="further-QA-btn">Contact us</button></a></h1>
+<h1 class="further-QA mt-8  wow animate__animated animate__fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s">Still have further questions?<a href="#"><button class="further-QA-btn">Contact us</button></a></h1>
 
 </section>
 
@@ -531,7 +566,7 @@ Quality & Customer Experience</p>
 
 <section id="contact">
 
-<div class="bef-foot mt-9 wow animate_animated animate_fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s">
+<div class="bef-foot mt-9 wow animate__animated animate__fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s">
   <h1 class="bef-head mt-9">493 businesses signed up <br>
 last week. Join them!</h1>
 
@@ -665,27 +700,26 @@ last week. Join them!</h1>
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> 
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.6/wow.min.js"></script>
 
 
-<script src="script.js"></script>
+
 <script src="wow.min.js"></script>
+<script src="script.js"></script>
 
 <script>
   new WOW().init();
 </script>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> 
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
