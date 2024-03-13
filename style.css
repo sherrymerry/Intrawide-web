@@ -211,7 +211,8 @@ nav a{
 }
 
 .card1 .img{
-    padding: 15px;
+    padding: 5px;
+    margin-left: -10px;
     
 }
 
@@ -256,6 +257,7 @@ nav a{
  }
  .card2 .img{
      padding: 5px;
+     margin-left: -10px;
  }
  
  .highly-head{
@@ -300,7 +302,8 @@ nav a{
   
  }
  .card3 .img{
-     padding: 20px;
+    padding: 8px;
+    margin-left: -5px;
     
  }
  
