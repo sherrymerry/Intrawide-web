@@ -558,17 +558,25 @@ nav a{
 
 .ui{
     font-size:20px;
-    color: #7577aa;;
+    color: #7577aa;
     font-weight: 600;
 
 }
 
-.ux{
-    color: #1a9cc3;
+
+.progressbar1{
+    height: 5px;
+    width: 46%;
+    border-radius: 3px 3px;
+    background-color: #20a4c7;
+
 }
 
+
+
+
 .ui span{
-    color: black;
+    color:  #323682;
     font-size: 2vh;
     font-family: sans-serif;
     margin-left: 210px;
@@ -577,17 +585,20 @@ nav a{
 
 .branding {
     font-size:20px;
-    color: #7577aa;;
+    color: #7577aa;
     font-weight: 600;
 }
 
-.brand{
-    color: #1a9cc3;
+.progressbar2{
+    height: 5px;
+    width: 41%;
+    border-radius: 3px 3px;
+    background-color: #d86738;
+    
 }
 
-
 .branding span{
-    color: black;
+    color:  #323682;
     font-size: 2vh;
     font-family: sans-serif;
     margin-left: 150px;
@@ -597,17 +608,21 @@ nav a{
 
 .marketing {
     font-size:20px;
-    color: #7577aa;;
+    color: #7577aa;
     font-weight: 600;
 }
 
-.market{
-    color: #1a9cc3;
+
+.progressbar3{
+    height: 5px;
+    width: 52%;
+    border-radius: 3px 3px;
+    background-color: #b64bcd;
+    
 }
 
-
 .marketing span{
-    color: black;
+    color:  #323682;
     font-size: 2vh;
     font-family: sans-serif;
     margin-left: 210px;
@@ -621,13 +636,18 @@ nav a{
     font-weight: 600;
 }
 
-.spt{
-    color: #1a9cc3;
+
+
+.progressbar4{
+    height: 5px;
+    width: 47%;
+    border-radius: 3px 3px;
+    background-color: #e66c66;
+    
 }
 
-
 .support span{
-    color: black;
+    color: #323682;
     font-size: 2vh;
     font-family: sans-serif;
     margin-left: 200px;
