@@ -163,6 +163,29 @@ nav a{
 
 }
 
+
+.sticky-bar {
+    animation: animate 2.5s ease-in-out infinite;
+    opacity: 0;
+    transform: translateX(-90px);
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateX(-90px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(90px);
+    }
+}
+
+
 /* 1line heading starts  */
 
 
