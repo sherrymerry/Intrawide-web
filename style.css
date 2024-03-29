@@ -1679,68 +1679,29 @@ nav a{
 
 
 
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
 
-  
-  /* @media only screen and (max-width: 600px) {
-    .name input, .email input {
-      width: 100%; 
-      margin-left: 0; 
-      margin-bottom: 10px; 
-    }
-  
-    .sub {
-      width: auto; 
-      margin-top: 10px;
-    }
-  }
-   */
+.loader {
+    border: 4px solid #fff; /* White border */
+    border-top: 4px solid blue; /* Green top border */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 8s linear infinite;
+}
 
-
-
-/* Adjust the navbar and logo image for smaller screens */
-
-
-
-/* @media only screen and (max-width: 600px) {
-    header {
-      margin-top: 0; 
-    }
-  
-    nav a {
-      font-size: 14px;
-      padding: 4px; 
-    }
-  
-    .nav-btn {
-      height: 50px;
-      width: 100px;
-      font-size: 16px;
-    }
-
-  }
-
-  
-  @media only screen and (max-width: 600px) {
-    .grid-container {
-    
-      text-align: center;
-    }
-  
-    .grid-head {
-      font-size: 24px; 
-    }
-  
-    .grid-para {
-      font-size: 16px;
-    }
-  
-    .grid-btn {
-      width: 100%;
-      margin-top: 20px;
-    }
-  }
-
-  
-  
-
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }

@@ -104,37 +104,45 @@
 
 const blaskconfetti = ()=>{
 
-  function randomInRange(min, max) {
-      return Math.random() * (max - min) + min;
+    function randomInRange(min, max) {
+        return Math.random() * (max - min) + min;
+      }
+      
+      confetti({
+        angle: randomInRange(55, 125),
+        spread: randomInRange(50, 70),
+        particleCount: randomInRange(50, 100),
+        origin: { y: 0.6 },
+      });
     }
-    
-    confetti({
-      angle: randomInRange(55, 125),
-      spread: randomInRange(50, 70),
-      particleCount: randomInRange(50, 100),
-      origin: { y: 0.6 },
-    });
+
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+
+      countdown('.succ-head1', 0, 1790);
+      countdown('.comp-head1', 1, 491);
+      countdown('.rcrt-head1', 1, 245);
+      countdown('.publish-head1', 1, 1090);
+
+  });
+  
+  function countdown(className, start, end) {
+      let currentValue = start;
+      let increment = (end - start) / 40; // Adjust speed by changing the divisor (40 here)
+      let interval = setInterval(function() {
+          currentValue += increment;
+          document.querySelector(className).innerText = Math.round(currentValue).toLocaleString();
+          if (currentValue >= end) {
+              clearInterval(interval);
+          }
+      }, 60); // Adjust speed by changing the interval (50ms here)
   }
 
 
 
-  document.addEventListener('DOMContentLoaded', function() {
-
-    countdown('.succ-head1', 0, 1790);
-    countdown('.comp-head1', 1, 491);
-    countdown('.rcrt-head1', 1, 245);
-    countdown('.publish-head1', 1, 1090);
-
+  window.addEventListener('load', function () {
+    var preloader = document.getElementById('preloader');
+    preloader.style.display = 'none'; // Hide the preloader when the page is fully loaded
+    document.body.style.overflow = 'auto'; // Enable scrolling after the page is loaded
 });
-
-function countdown(className, start, end) {
-    let currentValue = start;
-    let increment = (end - start) / 40; // Adjust speed by changing the divisor (40 here)
-    let interval = setInterval(function() {
-        currentValue += increment;
-        document.querySelector(className).innerText = Math.round(currentValue).toLocaleString();
-        if (currentValue >= end) {
-            clearInterval(interval);
-        }
-    }, 60); // Adjust speed by changing the interval (50ms here)
-}

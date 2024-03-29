@@ -737,7 +737,10 @@ last week. Join them!</h1>
 </footer>
 
 
-
+<div class="preloader" id="preloader">
+    <div class="loader"></div>
+   
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> 
