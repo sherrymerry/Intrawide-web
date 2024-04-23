@@ -213,7 +213,7 @@ form .btn input[type="submit"]{
         </div>
         <div class="form-inner">
 
-          <form action="../Frontend/index.php" id="my_form1" class="login" method="POST">
+          <form action="../Frontend/index.html" id="my_form1" class="login" method="POST">
 
             <div class="field">
               <input type="text" placeholder="Email Address" name="email" id="email" required>
@@ -232,7 +232,7 @@ form .btn input[type="submit"]{
             <div class="signup-link">Not a member? <a href="">Signup now</a></div>
           </form>
 
-          <form action="../Frontend/index.php"  id="my_form2" class="signup" method="POST"> 
+          <form action="../Frontend/index.html"  id="my_form2" class="signup" method="POST"> 
 
           <div class="field">
               <input type="text" placeholder="Your name" name="name" required>
