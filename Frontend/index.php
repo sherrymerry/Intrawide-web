@@ -738,7 +738,7 @@ last week. Join them!</h1>
 
 
 <div class="preloader" id="preloader">
-  <div class="loader"></div>
+  <div class="loader"><img src="images/Animation - 1713910320435.gif" alt=""></div>
 </div>
 
 
