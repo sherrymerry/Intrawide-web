@@ -877,7 +877,7 @@ nav a{
 
 .box1 .img1{
   
-    margin-left: 130px;
+    margin:auto;
   
 }
 
@@ -981,7 +981,7 @@ nav a{
 
 .box2 .img2{
   
-    margin-left: 130px;
+    margin:auto;
   
 }
 
@@ -1083,7 +1083,7 @@ nav a{
 
 .box3 .img3{
   
-    margin-left: 130px;
+    margin:auto;
   
 }
 
@@ -1183,7 +1183,8 @@ nav a{
 
 
 .box4 .img4{
-    margin-left: 130px;
+    margin:auto;
+
   
 }
 
